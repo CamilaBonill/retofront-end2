@@ -213,17 +213,18 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 16px;
 
     width: 360px;
-    height: 661px;
+    height: 438px;
 
     /* Azul/10% */
 
     background: #EAF2FD;
 }
 #titulo_2{
-    width: 238px;
+    width: 252px;
     height: 26px;
     
 
@@ -244,7 +245,7 @@ header{
     gap: 16px;
 
     width: 296px;
-    height: 539px;
+    height: 378px;
 }
 .Formacion{
     display: flex;
@@ -297,4 +298,127 @@ header{
     /* Preto/100% */
 
     color: #464646;
+}
+/*Experiencia profesional*/
+#contenedor_experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+
+    width: 360px;
+    height: 1321px;
+}
+#experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+
+    width: 296px;
+    height: 1215px;
+}
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 296px;
+    height: 251px;
+}
+#proyecto{
+    width: 296px;
+    height: 144px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 296px;
+    height: 91px;
+}
+#nombre_proyecto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+#detalle_proyecto{
+    width: 296px;
+    height: 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+#botones{
+    display: flex;
+}
+#btn_Repositorio{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+
+    width: 108px;
+    height: 40px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+
+}
+#btn_demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+
+    width: 96px;
+    height: 40px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
 }
