@@ -1,0 +1,11 @@
+@media (min-width: 768px) { 
+    /*hero*/
+    #hero{
+        flex-direction: row-reverse;
+    }
+    #foto_de_perfil{
+        width: 146px;
+        height: 146px;
+        border-radius: 50%;
+    }
+}
