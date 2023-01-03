@@ -1,0 +1,77 @@
+@media (min-width: 1200px) { 
+    header{
+        
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+        font-family: sans-serif;
+        text-align: center;
+        line-height: 1;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        position: fixed;
+        width: 100%;
+        height: 3%;
+        z-index: 9997;  
+    }
+    #menu_box{
+        display: flex;
+        width: 50%;
+    }
+    
+    #menu_contener{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;    
+    }
+    .menu{
+        display: flex;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: none;
+        /* Preto/100% */
+        color: #464646;
+    }
+    #foto_de_perfil{
+        width: 368px;
+        height: 368px;
+        margin-top: 3%;
+    }
+    .bg{
+        width: 100%;
+        width: 100%;
+    }
+    #bg{
+        width: 90%;
+        height: 100%;
+        position: fixed;
+        z-index: -100;
+    }
+    .text_hero {
+        width: 50%;
+        margin-top: 10%;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+    }
+/*sobre mi*/
+    /*.sobre_mi {
+        align-items: center;
+    }
+    #parrafo_sobre_mi {
+        width: 60%;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .sobre_mi #titulo_1 {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 18px;
+        
+    }*/
+}

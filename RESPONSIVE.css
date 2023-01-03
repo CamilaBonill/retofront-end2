@@ -1,6 +1,15 @@
+
 /*variables*/
 :root{
-    --bg_color1:#F5F5F5
+    /*paleta de colores*/
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --morado:#9A40FD;
+    --azul:#147CE5;
+    --bg_color1:#F5F5F5;
+}
+body{
+    background-color: var(--blanco);
 }
 /* RESPONSIVE*/
 
@@ -49,7 +58,7 @@ header{
 }
 /*hero*/
 #hero{
-    background: #F5F5F5;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -137,7 +146,7 @@ header{
 
     /* Azul/10% */
 
-    background: #EAF2FD;
+   
 }
 #titulo_1{
     width: 238px;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="RESPONSIVE.css">
     <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="pc.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -16,39 +17,37 @@
             <img id="estralla" src="./recursos/auto_awesome_black_24dp 1.svg">
             <h1 id="nombre">Janelka Bonilla</h1>
         </div>
-        <nav>
-            <ul id="menu">
-                <li><a href="#" class="menu">Sobre mi</a></li>
-                <li><a href="#"class="menu">Skills</a></li>
+        <nav id="menu_box">
+            <ul id="menu_contener">
+                <li><a href="#sobremi" class="menu">Sobre mi</a></li>
+                <li><a href="#kills"class="menu">Skills</a></li>
                 <li><a href="#"class="menu">Hobbies</a></li>
-                <li><a href="#" class="menu">Formación</a></li>
-                <li><a href="#" class="menu">Proyectos</a></li>
-                <li><a href="#" class="menu" id="email">Bonillajanelka@gmail.com</a></li>
+                <li><a href="#Formacion_academica" class="menu">Formación</a></li>
+                <li><a href="#contenedor_experiencias" class="menu">Proyectos</a></li>
+                <li><a href="#contacto" class="menu" id="email">Bonillajanelka@gmail.com</a></li>
             </ul>
         </nav>     
    </header>
-   <section id="hero">
-        <img id="foto_de_perfil" src="./recursos/foto de perfil.png">
-        <div class="text_hero">
-            <h1 id="saludo">Hola! Mi nombre es Janelka Bonilla y Me especializo en el desarrollo de Wed.</h1>
-            <p id="presentancion">Soy una apasionada de la tecnología y el desarrollo de software y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
-        
-            <nav class="link_red">
-                <ul id="link_redessociales">
-                    <li><a href="https://github.com/CamilaBonill" class="redes">Github <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                    <li><a href="https://www.linkedin.com/in/janelka-bonilla-sosa-284b53208" class="redes">Linkedin <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                    <li><a href="#" class="redes">Instagram <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                    <li><a href="#" class="redes">Currículo <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                </ul>
-            </nav>
+   <div>
+        <div class="gb">
+            <img id="bg" src="./33918.jpg">
         </div>
-   </section>
-   <section class="sobre_mi">
-        <h1 id="titulo_1">Sobre mi</h1>
-        <p id="parrafo_sobre_mi">Soy una estudiante de ingeniería civil y he estado estudiando programación durante los últimos 9 meses. Me encanta aprender nuevos lenguajes de programación y actualmente me especializo en HTML, JavaScript, CSS y Python. <br>
-        <br>Me siento muy afortunada de poder combinar mi pasión por la tecnología con mi formación en ingeniería y espero poder usar mis habilidades para contribuir al desarrollo de proyectos interesantes y significativos en el futuro.</p>
-        <img id="firma" src="./recursos/image 4.png">
-   </section>
+        <section id="hero">
+            <img id="foto_de_perfil" src="./recursos/foto de perfil.png">
+            
+            <div class="text_hero">
+                <h1 id="saludo">Hola! Mi nombre es Janelka Bonilla y Me especializo en el desarrollo de Wed.</h1>
+                <p id="presentancion">Soy una apasionada de la tecnología y el desarrollo de software y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>  
+            </div>
+        </section>
+        <section class="sobre_mi" id="sobremi">
+                <h1 id="titulo_1">Sobre mi</h1>
+                <p id="parrafo_sobre_mi">Soy una estudiante de ingeniería civil y he estado estudiando programación durante los últimos 9 meses. Me encanta aprender nuevos lenguajes de programación y actualmente me especializo en HTML, JavaScript, CSS y Python. <br>
+                <br>Me siento muy afortunada de poder combinar mi pasión por la tecnología con mi formación en ingeniería y espero poder usar mis habilidades para contribuir al desarrollo de proyectos interesantes y significativos en el futuro.</p>
+                <img id="firma" src="./recursos/image 4.png">
+        </section>
+   </div>
+   
    <section id="skills">
         <h1 id="titulo_2">Skills</h1>
         <ul id="skills_box">
@@ -152,6 +151,14 @@
     </section>
     <footer id="piedepagina">
         <h1 id="text_pie">Desarrollado por Janelka Bonilla 2022</h1>
+        <nav class="link_red">
+            <ul id="link_redessociales">
+                <li><a href="https://github.com/CamilaBonill" class="redes">Github <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/janelka-bonilla-sosa-284b53208" class="redes">Linkedin <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
+                <li><a href="#" class="redes">Instagram <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
+                <li><a href="#" class="redes">Currículo <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
