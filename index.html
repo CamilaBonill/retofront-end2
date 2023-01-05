@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="RESPONSIVE.css">
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="pc.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@main/css/iconoir.css">
+
+    
     <title>Portafolio</title>
 </head>
 <body>
@@ -28,15 +31,15 @@
             </ul>
         </nav>     
    </header>
-   <div>
-        <div class="gb">
-            <img id="bg" src="./33918.jpg">
-        </div>
+   <div class="bg">
         <section id="hero">
             <img id="foto_de_perfil" src="./recursos/foto de perfil.png">
+            <img id="workimg" src="./recursos/Tech Life - Remote Life.png">
             
             <div class="text_hero">
-                <h1 id="saludo">Hola! Mi nombre es Janelka Bonilla y Me especializo en el desarrollo de Wed.</h1>
+                <h1 class="saludo">Hello Word! Mi nombre es</h1>
+                <h1 class="saludo"><strong>Janelka Bonilla</strong></h1>
+                <h1 class="saludo">y Me especializo en el desarrollo de Wed.</h1>
                 <p id="presentancion">Soy una apasionada de la tecnología y el desarrollo de software y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>  
             </div>
         </section>
@@ -74,48 +77,147 @@
             </li>
         </ul>
    </section>
-   <section id="contenedor_experiencias">
+   <!-- Experirncias-->
+   <section id="contenedor_experiencias" >
     <h1 id="titulo_2">Experiencia profesional</h1>
     <ul id="experiencias">
-        <li class="experiencia">
-            <img src="./recursos/Rectangle.png" id="proyecto">
-            <div id="info">
-                <h1 id="nombre_proyecto">Encriptador de texto</h1>
-                <h3 id="detalle_proyecto">Challenge Oracle</h3>
-                <div id="botones">
-                    <Button id="btn_Repositorio">Repositório</Button><Button id="btn_demo">Ver demo</Button>
+        
+        <li class="experiencia" id="proyecto1">
+            <div id="proyecto2">
+                <div class="img-shadow">
+                    <img src="./recursos/Rectangle.png" id="proyecto">
+                </div>
+                <div id="info">
+                    <h1 id="nombre_proyecto">Encriptador de texto</h1>
+                    <h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+
+                        There live the blind texts
+                        Far far away behind the word</h3>
+                    <div id="botones">
+                        <ul class="Repositórios">
+                            <li class="Repositório" id="btn_demo">
+                                <a href="https://github.com/CamilaBonill" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                        <polyline points="15 4 20 4 20 9" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li  class="Repositório"  id="btn_Repositorio">
+                                <a href="https://github.com/CamilaBonill">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2B0082" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>               
+        </li>
+        <li class="experiencia" >
+            <div id="proyecto2">
+                <div class="img-shadow">
+                    <img src="./recursos/Rectangle2.png" id="proyecto">
+                </div>
+                
+                <div id="info">
+                    <h1 id="nombre_proyecto">Juego creado con HTML  y JavaScript</h1>
+                    <h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. There live the blind text Far far away behind the word</h3>
+                    <div id="botones">
+                        <ul class="Repositórios">
+                            <li class="Repositório" id="btn_demo">
+                                <a href="https://github.com/CamilaBonill" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                        <polyline points="15 4 20 4 20 9" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li  class="Repositório"  id="btn_Repositorio">
+                                <a href="https://github.com/CamilaBonill">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+                         
+        </li>
+        <li class="experiencia" id="proyecto3">
+            <div id="proyecto2">
+                <div class="img-shadow">
+                    <img src="./recursos/Rectangle3.png" id="proyecto">
+                </div>
+                <div id="info">
+                    <h1 id="nombre_proyecto">Encriptador de texto</h1>
+                    <h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. There live the blind text Far far away behind the word</h3>
+                    <div id="botones">
+                        <ul class="Repositórios">
+                            <li class="Repositório" id="btn_demo">
+                                <a href="https://github.com/CamilaBonill" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                        <polyline points="15 4 20 4 20 9" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li  class="Repositório"  id="btn_Repositorio">
+                                <a href="https://github.com/CamilaBonill">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>               
         </li>
-        <li class="experiencia">
-            <img src="./recursos/Rectangle2.png" id="proyecto">
-            <div id="info">
-                <h1 id="nombre_proyecto">Juego creado con HTML  y JavaScript</h1>
-                <h3 id="detalle_proyecto">Challenge Oracle</h3>
-                <div id="botones">
-                    <Button id="btn_Repositorio">Repositório</Button><Button id="btn_demo">Ver demo</Button>
+        <li class="experiencia" id="proyecto4">
+            <div id="proyecto2">
+                <div class="img-shadow">
+                    <img src="./recursos/Rectangle4.png" id="proyecto">
                 </div>
-            </div>               
-        </li>
-        <li class="experiencia">
-            <img src="./recursos/Rectangle (1).png" id="proyecto">
-            <div id="info">
-                <h1 id="nombre_proyecto">Encriptador de texto</h1>
-                <h3 id="detalle_proyecto">Challenge Oracle</h3>
-                <div id="botones">
-                    <Button id="btn_Repositorio">Repositório</Button><Button id="btn_demo">Ver demo</Button>
-                </div>
-            </div>               
-        </li>
-        <li class="experiencia">
-            <img src="./recursos/Rectangle (2).png" id="proyecto">
-            <div id="info">
-                <h1 id="nombre_proyecto">Juego creado con HTML, CSS y JavaScript</h1>
-                <h3 id="detalle_proyecto">Challenge Oracle</h3>
-                <div id="botones">
-                    <Button id="btn_Repositorio">Repositório</Button><Button id="btn_demo">Ver demo</Button>
-                </div>
-            </div>               
+                <div id="info">
+                    <h1 id="nombre_proyecto">Juego creado con HTML, CSS y JavaScript</h1>
+                    <h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. There live the blind text Far far away behind the word</h3>
+                    <div id="botones">
+                        <ul class="Repositórios">
+                            <li class="Repositório" id="btn_demo">
+                                <a href="https://github.com/CamilaBonill" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                        <polyline points="15 4 20 4 20 9" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li  class="Repositório"  id="btn_Repositorio">
+                                <a href="https://github.com/CamilaBonill">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>   
         </li>  
     </ul>
    </section>
@@ -153,10 +255,43 @@
         <h1 id="text_pie">Desarrollado por Janelka Bonilla 2022</h1>
         <nav class="link_red">
             <ul id="link_redessociales">
-                <li><a href="https://github.com/CamilaBonill" class="redes">Github <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                <li><a href="https://www.linkedin.com/in/janelka-bonilla-sosa-284b53208" class="redes">Linkedin <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                <li><a href="#" class="redes">Instagram <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
-                <li><a href="#" class="redes">Currículo <img src="./recursos/arrow_back_black_24dp 1.png"></a></li>
+                <li><a href="https://github.com/CamilaBonill" class="redes">
+                        <svg xmlns="http://www.w3.org/2000/svg"  id="icon_red" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />}
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/janelka-bonilla-sosa-284b53208" class="redes">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                            <line x1="8" y1="11" x2="8" y2="16" />
+                            <line x1="8" y1="8" x2="8" y2="8.01" />
+                            <line x1="12" y1="16" x2="12" y2="11" />
+                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="#" class="redes">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="#" class="redes">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-arrow-bar-to-down" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="4" y1="20" x2="20" y2="20" />
+                            <line x1="12" y1="14" x2="12" y2="4" />
+                            <line x1="12" y1="14" x2="16" y2="10" />
+                            <line x1="12" y1="14" x2="8" y2="10" />
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </nav>
     </footer>

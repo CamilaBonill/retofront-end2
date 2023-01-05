@@ -1,3 +1,14 @@
+:root{
+    /*paleta de colores #FBEAFF*/
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --morado:#9A40FD;
+    --azul:#147CE5;
+    --bg_color1:#F5F5F5;
+    --pink: #CF9EAC;
+    --gris_font: #677381;
+    --font_family1:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 @media (min-width: 1200px) { 
     header{
         
@@ -38,40 +49,379 @@
         width: 368px;
         height: 368px;
         margin-top: 3%;
+
+        display: none;
     }
     .bg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
         width: 100%;
-        width: 100%;
-    }
-    #bg{
-        width: 90%;
-        height: 100%;
-        position: fixed;
-        z-index: -100;
+        min-height: 155vh;
     }
     .text_hero {
-        width: 50%;
-        margin-top: 10%;
+        justify-content: center;
+        width: 55%;
+        height: 50vh;
+        margin-top: 20%;
+        margin-left: 5%;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 52px;
         line-height: 61px;
     }
+   
+    .saludo{  
+        width: 100%;
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        height: 36px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        color: var(--gris_font);
+        padding: 0px;
+    }
+    strong{
+        font-family: var(--font_family1);
+        color: var(--pink);
+        font-size: 85px;
+        font-weight: 700;
+        height: 100px;
+    }
+    #workimg{
+        
+        margin-top: 10%;
+        width: 40%;
+        height: 40%;
+    }
+    #presentancion{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        
+    }
 /*sobre mi*/
-    /*.sobre_mi {
-        align-items: center;
+    .sobre_mi {
+        display: flex;
+        align-items: center;   
+        gap: 32px;
     }
     #parrafo_sobre_mi {
         width: 60%;
         font-weight: 700;
         font-size: 22px;
         line-height: 25px;
+        color: var(--gris_font);
     }
     .sobre_mi #titulo_1 {
         font-weight: 700;
         font-size: 55px;
         line-height: 18px;
         
-    }*/
+    }
+    /*skill*/
+    #skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 16px;
+        gap: 32px;
+        width: auto;
+        height: 70vh;
+    }
+    #titulo_2{
+        width: auto;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 18px;        
+    }
+    #skills_box{
+        width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 32px;
+        justify-content: space-evenly
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-left: 0px;
+        background: #EAF2FD;
+        width: 142px;
+        height: 142px;
+        border-radius: 50%;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+    }
+    #logo_skill{
+        width: 32px;
+        height: 37px; 
+    }
+    /*Formación académica*/
+    #Formacion_academica{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 40px;
+        padding: 16px;
+
+        width: auto;
+        height: 80vh;
+
+        /* Azul/10% */
+
+    }
+    #Formacion_box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+        gap: 141px;
+
+        width: auto;
+    }
+    .Formacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 8px;
+        
+        width: 370px;
+        height: 370px;
+        background: #ffffff;
+    }
+
+    #academia_logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        width: 296px;
+        height: 118px;
+
+    }
+    #titulo{
+        width: auto;
+        height: 19px;
+
+        font-family: var(--font_family1);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+    #fecha{
+        width: auto;
+        height: 16px;
+        font-family: var(--font_family1);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+    /*Experiencia profesional*/
+    #contenedor_experiencias{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        gap: 16px;
+
+        width: 100%;
+        height: 390vh;
+    }
+    #experiencias{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px;
+        gap: 0px;
+
+        width: 100%;
+        height: 380vh;
+        
+    }
+    .experiencia{
+        
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        gap: 16px;
+        width: 100%;
+        height: calc(90%/4);
+    }
+    #proyecto2{
+        display: flex;
+        width: 85%;
+        height: 80%;
+        justify-content: space-between;
+    }
+    .img-shadow {
+        width: 60%;
+        background: #ffffff;
+        border: 10px solid #ffffff;
+        -webkit-box-shadow: 0 15px 100px -20px rgb(0 0 0 / 10%);
+        box-shadow: 0 15px 100px -20px rgb(0 0 0 / 10%);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    #proyecto{
+        width: 100%;
+        height: 100%;
+    }
+    #info{
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 0px;
+        gap: 8px;
+        
+        width: 30%;
+        height: 70%;
+    }
+    #nombre_proyecto{
+        font-family: var(--font_family1);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    #detalle_proyecto{
+        width: 296px;
+        height: 40%;
+
+        font-family: var(--font_family1);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+    #botones{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        width: 296px;
+        height: 40px;
+    }
+
+    .Repositórios{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Repositório{
+        display: flex;
+        width: 44px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+    }
+    #btn_demo{
+        border-radius: 50%;
+        border: 1px solid #0994c7;
+    }
+    #btn_Repositorio{
+        border-radius: 50%;
+        border: 1px solid #812ed9;  
+    }
+    #icon_link{
+        width: 30px;
+        height: 30px;
+        stroke: #0994c7;
+    }
+    #icon_git{
+        width: 30px;
+        height: 30px;
+        stroke: #812ed9;
+    }
+    #contacto{
+        display: none;
+    }
+    /*footer*/
+    #piedepagina {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        gap: 10px;
+        width: auto;
+        height: 102px;
+        background: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+    }
+    #text_pie{
+        width: 229px;
+        height: 38px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        /* Preto/100% */
+    
+        color: #464646;
+    }
+    .link_red{
+        width: 20%;
+    }
+    #link_redessociales{
+        display: flex;
+        justify-content: space-between;
+    }
+    .redes{
+        display: flex;
+        width: auto;
+        height: 16px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    
+        /* Preto/100% */
+    
+        color: #464646;
+    
+    }
 }
