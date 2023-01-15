@@ -226,7 +226,7 @@ header{
     height: 37px;  
 }
 /*Formación académica*/
-#Formacion_academica{
+.Formacion_academicas{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,7 +238,7 @@ header{
 
     /* Azul/10% */
 
-    background: #EAF2FD;
+    
 }
 #titulo_2{
     width: 252px;
