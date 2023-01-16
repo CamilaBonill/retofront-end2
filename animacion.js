@@ -20,7 +20,7 @@
   ScrollReveal().reveal('.skill', {delay: 500, origin: 'bottom', interval: 200})
 
   ScrollReveal().reveal('#titulo_1, #titulo_2', {delay: 500, origin: 'let'})
-  ScrollReveal().reveal('#info div', {delay: 500, origin: 'let', interval: 1000})
+  /*ScrollReveal().reveal('#info div', {delay: 500, origin: 'let', interval: 1000})
 
 /*
   let ultimoScrollY = 0
