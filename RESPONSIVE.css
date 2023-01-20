@@ -13,7 +13,7 @@ body{
 }
 /* RESPONSIVE*/
 
-header{
+#cabezera{
     background: var(--bg_color1);
     display: flex;
     flex-direction: row;
@@ -326,7 +326,7 @@ header{
 
     width: auto;
     height: 1321px;
-}
+}/*
 #experiencias{
     display: flex;
     flex-direction: column;
@@ -346,7 +346,7 @@ header{
 
     width: 296px;
     height: 251px;
-}
+}*/
 #proyecto{
     width: 296px;
     height: 144px;

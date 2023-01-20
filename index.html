@@ -4,354 +4,371 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="RESPONSIVE.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="reset.css">
+    <!--link rel="stylesheet" href="style.css"-->
+    <!--link rel="stylesheet" href="RESPONSIVE.css"-->
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="pc.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@main/css/iconoir.css">
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    
     <title>Portafolio</title>
 </head>
-<body>
-   <header>
-        <div id="box_name">
-            <img id="estralla" src="./recursos/auto_awesome_black_24dp 1.svg">
-            <h1 id="nombre">Janelka Bonilla</h1>
-        </div>
-        <nav id="menu_box">
-            <ul id="menu_contener">
-                <li><a href="#sobremi" class="menu">Sobre mi</a></li>
-                <li><a href="#kills"class="menu">Skills</a></li>
-                <li><a href="#"class="menu">Hobbies</a></li>
-                <li><a href="#Formacion_academica" class="menu">Formación</a></li>
-                <li><a href="#contenedor_experiencias" class="menu">Proyectos</a></li>
-                <li><a href="#contacto" class="menu" id="email">Bonillajanelka@gmail.com</a></li>
-            </ul>
-        </nav>     
+<body id="bodys">
+<!-----------cabecera de pagina-----------------------------> 
+   <header id="cabezera">
+        <div id="boxheader">
+            <div id="box_name">
+                <img id="estralla" src="./recursos/auto_awesome_black_24dp 1.svg">
+                <h1 id="nombre">Janelka Bonilla</h1>
+            </div>
+            <div id="menu_box">
+                <ul id="menu_contener">
+                    <li><a href="#sobremi" class="menu">Sobre mi</a></li>
+                    <li><a href="#kills"class="menu">Skills</a></li>
+                    <li><a href="#"class="menu">Hobbies</a></li>
+                    <li><a href="#Formacion_academica" class="menu">Formación</a></li>
+                    <li><a href="#contenedor_experiencias" class="menu">Proyectos</a></li>
+                    <li><a href="#contacto" class="menu" id="email">Bonillajanelka@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>    
    </header>
-   <div class="bg">
-        <section id="tr">
-            <div id="hero">
-                <div id="circulos">
-                    <div id="circulo1"></div>
-                    <div id="circulo2"></div>
-                    <div id="circulo3"></div>
-                    <div id="circulodeluz"></div>
-                    <div id="circulodeluz2"></div>
+<!-----------Cuerpo de pagina-----------------------------> 
+   <main class="section-container" id="pagepiling">
+<!------------------------- portada--------------------------------------------->  
+        <section class="section" id="hero " >
+            <div id="conterner">
+                <div id="boxhero">
+                    <div id="circulos">
+                        <div id="circulo1"></div>
+                        <div id="circulo2"></div>
+                        <div id="circulo3"></div>
+                        <div id="circulodeluz"></div>
+                        <div id="circulodeluz2"></div>
+                    </div>
+                    <div id="box_img"><img id="foto_de_perfil" src="./recursos/foto de perfil.png"></div>
+                    
+                    <div class="text_hero">
+                        <h1 class="saludo" id="saludos">Hello Word! Soy</h1>
+                        <h1 class="saludo" id="nombre2"><strong>Janelka Bonilla</strong></h1>
+                        <h1 class="saludo"id="saludos">y Me especializo en el desarrollo de Wed.</h1>
+                        <p id="presentancion">Soy una apasionada de la tecnología y el desarrollo de software y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>  
+                    </div>
+                    <div class="link_red">
+                        <ul id="link_redessociales">
+                            <li><a href="https://github.com/CamilaBonill" class="redes">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  id="icon_red" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />}
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/janelka-bonilla-sosa-284b53208" class="redes">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                                        <line x1="8" y1="11" x2="8" y2="16" />
+                                        <line x1="8" y1="8" x2="8" y2="8.01" />
+                                        <line x1="12" y1="16" x2="12" y2="11" />
+                                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="#" class="redes">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                                        <circle cx="12" cy="12" r="3" />
+                                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="#" class="redes">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-arrow-bar-to-down" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <line x1="4" y1="20" x2="20" y2="20" />
+                                        <line x1="12" y1="14" x2="12" y2="4" />
+                                        <line x1="12" y1="14" x2="16" y2="10" />
+                                        <line x1="12" y1="14" x2="8" y2="10" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>   
                 </div>
-                
-
-                <div id="box_img"><img id="foto_de_perfil" src="./recursos/foto de perfil.png"></div>
-                
-                <div class="text_hero">
-                    <h1 class="saludo" id="saludos">Hello Word! Soy</h1>
-                    <h1 class="saludo" id="nombre2"><strong>Janelka Bonilla</strong></h1>
-                    <h1 class="saludo"id="saludos">y Me especializo en el desarrollo de Wed.</h1>
-                    <p id="presentancion">Soy una apasionada de la tecnología y el desarrollo de software y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>  
+            </div>
+        </section>
+<!------------------------- sobre mi-------------------------------------------->  
+        <section class="sobre_mi section" id="sobremi">
+            <div id="conterner">
+                <div id="boxsobremi">
+                    <div id="circulos">
+                        <div id="circulo1"></div>
+                        <div id="circulo2"></div>
+                        <div id="circulo3"></div>
+                        <div id="circulodeluz"></div>
+                        <div id="circulodeluz2"></div>
+                    </div>
+                    <h1 class= "sobre" id="titulo_1">Sobre mi</h1>
+                    <p id="parrafo_sobre_mi">Soy una estudiante de ingeniería civil y he estado estudiando programación durante los últimos 9 meses. Me encanta aprender nuevos lenguajes de programación y actualmente me especializo en HTML, JavaScript, CSS y Python. <br>
+                    <br>Me siento muy afortunada de poder combinar mi pasión por la tecnología con mi formación en ingeniería y espero poder usar mis habilidades para contribuir al desarrollo de proyectos interesantes y significativos en el futuro.</p>
+                    <!--img id="firma" src="./recursos/image 4.png"-->
                 </div>
-                <nav class="link_red">
-                    <ul id="link_redessociales">
-                        <li><a href="https://github.com/CamilaBonill" class="redes">
-                                <svg xmlns="http://www.w3.org/2000/svg"  id="icon_red" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />}
-                                </svg>
-                            </a>
+            </div>
+        </section>
+<!------------------------- habilidades------------------------------------------>    
+        <section class="section" id="skills" >
+            <div id="conterner">
+                <div id="boxskills">
+                    <div id="circulos">
+                        <div id="circulo1"></div>
+                        <div id="circulo2"></div>
+                        <div id="circulo3"></div>
+                        <div id="circulodeluz"></div>
+                        <div id="circulodeluz2"></div>
+                    </div>
+                    <h1 id="titulo_1">Skills</h1>
+                    <ul id="skills_box">
+                        <li class="skill" id="habilidad"><img src="./recursos/2.svg" id="logo_skill">Html 5</li>
+                        <li class="skill" id="habilidad"><img src="./recursos/1.svg" id="logo_skill">Javascript</li>
+                        <li class="skill" id="habilidad"><img src="./recursos/3.svg" id="logo_skill">Node JS</li>
+                        <li class="skill" id="habilidad"><img src="./recursos/CSS3_logo.png"id="logo_skill">CSS</li>
+                        <li class="skill" id="habilidad"><img src="./recursos/4.png" id="logo_skill">Python</li>
+                        <li class="skill" id="habilidad"><img src="./recursos/react.svg" id="logo_skill">React</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+ 
+<!------------------------- formacion académica-------------------------------------------->         
+        <section class="section" id="formacionacadémica" >
+            <div id="conterner">
+                <section  id="boxFormacion">
+                    <div id="circulos">
+                        <div id="circulo1"></div>
+                        <div id="circulo2"></div>
+                        <div id="circulo3"></div>
+                        <div id="circulodeluz"></div>
+                        <div id="circulodeluz2"></div>
+                    </div>
+                    <h1 id="titulo_1">Formación académica</h1>
+                    <ul id="Formacion_box">
+                        <li class="Formacion">
+                            <img src="./recursos/logo_uasd.svg" class="academia_logo" id="uasd_logo">
+                            <h1 id="titulo">Ingeniería civil</h1>
+                            <h3 id="fecha">2016-2023</h3>
                         </li>
-                        <li><a href="https://www.linkedin.com/in/janelka-bonilla-sosa-284b53208" class="redes">
-                                <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <rect x="4" y="4" width="16" height="16" rx="2" />
-                                    <line x1="8" y1="11" x2="8" y2="16" />
-                                    <line x1="8" y1="8" x2="8" y2="8.01" />
-                                    <line x1="12" y1="16" x2="12" y2="11" />
-                                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a href="#" class="redes">
-                                <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <rect x="4" y="4" width="16" height="16" rx="4" />
-                                    <circle cx="12" cy="12" r="3" />
-                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a href="#" class="redes">
-                                <svg xmlns="http://www.w3.org/2000/svg" id="icon_red" class="icon icon-tabler icon-tabler-arrow-bar-to-down" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <line x1="4" y1="20" x2="20" y2="20" />
-                                    <line x1="12" y1="14" x2="12" y2="4" />
-                                    <line x1="12" y1="14" x2="16" y2="10" />
-                                    <line x1="12" y1="14" x2="8" y2="10" />
-                                </svg>
-                            </a>
+                        <li class="Formacion" >
+                            <img src="./recursos/logo-one (1).png" class="academia_logo" id="one_logo">
+                            <h1 id="titulo">Desarrolladora Full-Stack</h1>
+                            <h3 id="fecha">2022-2023</h3>
                         </li>
                     </ul>
-                </nav>
+                </section>
             </div>
-            
-            
-        </section>
-        <section class="sobre_mi" id="sobremi">
-            <div id="circulos">
-                <div id="circulo1"></div>
-                <div id="circulo2"></div>
-                <div id="circulo3"></div>
-                <div id="circulodeluz"></div>
-                <div id="circulodeluz2"></div>
-            </div>
-                <h1 class= "sobre" id="titulo_1">Sobre mi</h1>
-                <p id="parrafo_sobre_mi">Soy una estudiante de ingeniería civil y he estado estudiando programación durante los últimos 9 meses. Me encanta aprender nuevos lenguajes de programación y actualmente me especializo en HTML, JavaScript, CSS y Python. <br>
-                <br>Me siento muy afortunada de poder combinar mi pasión por la tecnología con mi formación en ingeniería y espero poder usar mis habilidades para contribuir al desarrollo de proyectos interesantes y significativos en el futuro.</p>
-                <!--img id="firma" src="./recursos/image 4.png"-->
-                <div id="anim"></div>
-        </section>
-        
-   </div>
-   
-   <section id="skills">
-        <div id="circulos">
-            <div id="circulo1"></div>
-            <div id="circulo2"></div>
-            <div id="circulo3"></div>
-            <div id="circulodeluz"></div>
-            <div id="circulodeluz2"></div>
-        </div>
-        <h1 id="titulo_1">Skills</h1>
-        <ul id="skills_box">
-            <li class="skill"><img src="./recursos/2.svg" id="logo_skill">Html 5</li>
-            <li class="skill"><img src="./recursos/1.svg" id="logo_skill">Javascript</li>
-            <li class="skill"><img src="./recursos/3.svg" id="logo_skill">Node JS</li>
-            <li class="skill"><img src="./recursos/CSS3_logo.png"id="logo_skill">CSS</li>
-            <li class="skill"><img src="./recursos/4.png" id="logo_skill">Python</li>
-            <li class="skill"><img src="./recursos/react.svg" id="logo_skill">React</li>
-        </ul>
-   </section>
-   
-   <div class="b1">
-        <div id="k1" class="sticky_ele">
-            <section  class="Formacion_academicas">
-                <div id="circulos">
-                    <div id="circulo1"></div>
-                    <div id="circulo2"></div>
-                    <div id="circulo3"></div>
-                    <div id="circulodeluz"></div>
-                    <div id="circulodeluz2"></div>
-                </div>
-                <h1 id="titulo_1">Formación académica</h1>
-                <ul id="Formacion_box">
-                    <li class="Formacion">
-                        <img src="./recursos/logo_uasd.svg" class="academia_logo" id="uasd_logo">
-                        <h1 id="titulo">Ingeniería civil</h1>
-                        <h3 id="fecha">2016-2023</h3>
-                    </li>
-                    <li class="Formacion" >
-                        <img src="./recursos/logo-one (1).png" class="academia_logo" id="one_logo">
-                        <h1 id="titulo">Desarrolladora Full-Stack</h1>
-                        <h3 id="fecha">2022-2023</h3>
-                    </li>
-                </ul>
-            </section>
-        </div>
-
-        
-        
-        <!-- Experirncias-->
-        <section id="contenedor_experiencias" >
-            <h1 id="titulo_1">Experiencia profesional</h1>
-            <ul id="experiencias">
-                
-                <li class="experiencia" id="proyecto1">
-                    <div id="proyecto2">
-                        <div class="img-shadow">
-                            <img src="./recursos/Rectangle.png" id="proyecto">
-                        </div>
-                        <div id="info">
-                            <div><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
-                            <div><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-
-                                There live the blind texts
-                                Far far away behind the word</h3>
-                            </div>
-                            <div id="botones">
-                                <ul class="Repositórios">
-                                    <li class="Repositório" id="btn_demo">
-                                        <a href="https://github.com/CamilaBonill" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                                                <line x1="10" y1="14" x2="20" y2="4" />
-                                                <polyline points="15 4 20 4 20 9" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li  class="Repositório"  id="btn_Repositorio">
-                                        <a href="https://github.com/CamilaBonill">
-                                            <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2B0082" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>  
-                    </div>               
-                </li>
-                <li class="experiencia" >
-                    <div id="proyecto2">
-                        <div class="img-shadow">
-                            <img src="./recursos/Rectangle2.png" id="proyecto">
-                        </div>
+        </section>   
+<!------------------------- Experiencias profesional---------------------------------------->
+        <section class="section" id="experiencias">
+            <div id="conterner">
+                <section id="boxexperiencias" >
+                    <h1 id="titulo_1">Experiencia profesional</h1>
+                    <ul class="carousel" id="listaexperiencias">
                         
-                        <div id="info">
-                            <div><h1 id="nombre_proyecto">Juego creado con HTML  y JavaScript</h1></div>
-                            <div><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. There live the blind text Far far away behind the word</h3>
-                            </div>
-                                <div id="botones">
-                                <ul class="Repositórios">
-                                    <li class="Repositório" id="btn_demo">
-                                        <a href="https://github.com/CamilaBonill" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                                                <line x1="10" y1="14" x2="20" y2="4" />
-                                                <polyline points="15 4 20 4 20 9" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li  class="Repositório"  id="btn_Repositorio">
-                                        <a href="https://github.com/CamilaBonill">
-                                            <svg xmlns="http://www.w3.org/2000/svg"  id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>  
-                    </div>
+                        <li class="carousel-item experiencia" id="proyecto1">
+                            <div id="proyecto2">
+                                <div class="img-shadow">
+                                    <img src="./recursos/Rectangle.png" id="proyecto">
+                                </div>
+                                <div id="info">
+                                    <div id="titulo_proyecto"><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
+                                    <div id="info_proyecto"><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        
+                                        There live the blind texts
+                                        Far far away behind the word</h3>
+                                    </div>
+                                    <div id="botones">
+                                        <ul class="Repositórios">
+                                            <li class="Repositório" id="btn_demo">
+                                                <a href="https://github.com/CamilaBonill" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                                        <polyline points="15 4 20 4 20 9" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li  class="Repositório"  id="btn_Repositorio">
+                                                <a href="https://github.com/CamilaBonill">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2B0082" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>  
+                            </div>               
+                        </li>
+                        <li class="carousel-item experiencia" id="proyecto1">
+                            <div id="proyecto2">
+                                <div class="img-shadow">
+                                    <img src="./recursos/Rectangle2.png" id="proyecto">
+                                </div>
                                 
-                </li>
-                <li class="experiencia" id="proyecto3">
-                    <div id="proyecto2">
-                        <div class="img-shadow">
-                            <img src="./recursos/Rectangle3.png" id="proyecto">
-                        </div>
-                        <div id="info">
-                            <div><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
-                            <div><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-
-                                There live the blind texts
-                                Far far away behind the word</h3>
+                                <div id="info">
+                                    <div id="titulo_proyecto"><h1 id="nombre_proyecto">Juego creado con HTML</h1></div>
+                                    <div id="info_proyecto"><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. There live the blind text Far far away behind the word</h3>
+                                    </div>
+                                        <div id="botones">
+                                        <ul class="Repositórios">
+                                            <li class="Repositório" id="btn_demo">
+                                                <a href="https://github.com/CamilaBonill" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                                        <polyline points="15 4 20 4 20 9" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li  class="Repositório"  id="btn_Repositorio">
+                                                <a href="https://github.com/CamilaBonill">
+                                                    <svg xmlns="http://www.w3.org/2000/svg"  id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>  
                             </div>
-                            <div id="botones">
-                                <ul class="Repositórios">
-                                    <li class="Repositório" id="btn_demo">
-                                        <a href="https://github.com/CamilaBonill" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                                                <line x1="10" y1="14" x2="20" y2="4" />
-                                                <polyline points="15 4 20 4 20 9" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li  class="Repositório"  id="btn_Repositorio">
-                                        <a href="https://github.com/CamilaBonill">
-                                            <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>               
-                </li>
-                <!--li class="experiencia" id="proyecto4">
-                    <div id="proyecto2">
-                        <div class="img-shadow">
-                            <img src="./recursos/Rectangle4.png" id="proyecto">
-                        </div>
-                        <div id="info">
-                            <div><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
-                            <div><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-
-                                There live the blind texts
-                                Far far away behind the word</h3>
-                            </div>
-                            <div id="botones">
-                                <ul class="Repositórios">
-                                    <li class="Repositório" id="btn_demo">
-                                        <a href="https://github.com/CamilaBonill" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                                                <line x1="10" y1="14" x2="20" y2="4" />
-                                                <polyline points="15 4 20 4 20 9" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li  class="Repositório"  id="btn_Repositorio">
-                                        <a href="https://github.com/CamilaBonill">
-                                            <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> 
-                    </div>   
-                </li-->  
-            </ul>
+                                        
+                        </li>
+                        <li class="carousel-item experiencia" id="proyecto1">
+                            <div id="proyecto2">
+                                <div class="img-shadow">
+                                    <img src="./recursos/Rectangle3.png" id="proyecto">
+                                </div>
+                                <div id="info">
+                                    <div id="titulo_proyecto"><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
+                                    <div id="info_proyecto"><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        
+                                        There live the blind texts
+                                        Far far away behind the word</h3>
+                                    </div>
+                                    <div id="botones">
+                                        <ul class="Repositórios">
+                                            <li class="Repositório" id="btn_demo">
+                                                <a href="https://github.com/CamilaBonill" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                                        <polyline points="15 4 20 4 20 9" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li  class="Repositório"  id="btn_Repositorio">
+                                                <a href="https://github.com/CamilaBonill">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>               
+                        </li>
+                        <li class="carousel-item experiencia" id="proyecto1">
+                            <div id="proyecto2">
+                                <div class="img-shadow">
+                                    <img src="./recursos/Rectangle4.png" id="proyecto">
+                                </div>
+                                <div id="info">
+                                    <div id="titulo_proyecto"><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
+                                    <div id="info_proyecto"><h3 id="detalle_proyecto">Challenge Oracle Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        
+                                        There live the blind texts
+                                        Far far away behind the word</h3>
+                                    </div>
+                                    <div id="botones">
+                                        <ul class="Repositórios">
+                                            <li class="Repositório" id="btn_demo">
+                                                <a href="https://github.com/CamilaBonill" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="icon_link" class="icon icon-tabler icon-tabler-external-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                                                        <line x1="10" y1="14" x2="20" y2="4" />
+                                                        <polyline points="15 4 20 4 20 9" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li  class="Repositório"  id="btn_Repositorio">
+                                                <a href="https://github.com/CamilaBonill">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id= "icon_git" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div> 
+                            </div>   
+                        </li>  
+                    </ul>
+                </section>
+            </div>
         </section>
+<!------------------------- contacto--------------------------------------------->                
         <section id="contacto">
-            <div id="texto_contacto">
-                <h1 id="titulo_1">Contacto</h1>
-                <h3 id="detalle_proyecto">¿Quieres contactarme?
-                <br> Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</h3>
-            </div>
-            <div id="formulario">
-                <form action="/contacto" method="post" id="box_input">
-                    <div class="p1">
-                        <label  id= "etiqueta" for="nombre">Nombre:</label>
-                        <input class="input" maxlength="20" type="text" id="nombre" name="nombre">
+                    <div id="texto_contacto">
+                        <h1 id="titulo_1">Contacto</h1>
+                        <h3 id="detalle_proyecto">¿Quieres contactarme?
+                        <br> Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</h3>
                     </div>
-                    <div class="p1">
-                        <label  id= "etiqueta" for="email">Email:</label>
-                        <input class="input" maxlength="20" type="email" id="email" name="email">
+                    <div id="formulario">
+                        <form action="/contacto" method="post" id="box_input">
+                            <div class="p1">
+                                <label  id= "etiqueta" for="nombre">Nombre:</label>
+                                <input class="input" maxlength="20" type="text" id="nombre" name="nombre">
+                            </div>
+                            <div class="p1">
+                                <label  id= "etiqueta" for="email">Email:</label>
+                                <input class="input" maxlength="20" type="email" id="email" name="email">
+                            </div>
+                            <div class="p1">
+                                <label  id= "etiqueta" for="asunto">Asunto:</label>
+                                <input class="input"  maxlength="30" type="text" id="asunto" name="asunto">
+                            </div>
+                            <div class="p1" id="textArea">
+                                <label id= "etiqueta" for="mensaje">Mensaje:</label>
+                                <textarea class="input"  id="mensaje" name="mensaje"></textarea>
+                            </div>
+                        </form> 
                     </div>
-                    <div class="p1">
-                        <label  id= "etiqueta" for="asunto">Asunto:</label>
-                        <input class="input"  maxlength="30" type="text" id="asunto" name="asunto">
-                    </div>
-                    <div class="p1" id="textArea">
-                        <label id= "etiqueta" for="mensaje">Mensaje:</label>
-                        <textarea class="input"  id="mensaje" name="mensaje"></textarea>
-                    </div>
-                </form> 
-            </div>
-        <div id="btn_enviar">
-                <Button id="btn_formulario">Enviar mensaje</Button>
-        </div>
+                <div id="btn_enviar">
+                        <Button id="btn_formulario">Enviar mensaje</Button>
+                </div>
         </section>
-   </div>
-
-  
+    </main>
+<!-----------Pie de pagina -----------------------------> 
     <footer id="piedepagina">
         <h1 id="text_pie">Desarrollado por Janelka Bonilla 2022</h1>
     </footer>
-    <script src="./animacion.js"></script>
-    
+<!---------- Compiled and minified JavaScript de librerias ---------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+<!-----------Javascript del proyecto ----------------------------->
+    <script src="./animacion.js"></script> 
 </body>
 </html>
