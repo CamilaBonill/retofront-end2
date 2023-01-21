@@ -160,7 +160,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 55%;
+        width: 50%;
         height: 100%;
         
         margin-left: 5%;
@@ -185,9 +185,15 @@
     strong{
         font-family: var(--font_family1);
         color: var(--blanco);
-        font-size: 4.375rem;
+        font-size: 3.75rem;
         font-weight: 700;
         height: 6.25rem;
+    }
+    #saludos{
+        font-size: 2.1875rem;
+    }
+    #profesion{
+        font-size: 1rem;
     }
     #workimg{
         display: none;
@@ -198,15 +204,47 @@
     #presentancion{
         width: 60%;
         height: 3rem;
-        margin-bottom: 2.5rem;
+        margin: 1rem 0rem 0rem 0rem;
         
     
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 400;
+        font-size: 0.975rem;
+        line-height:1.3rem;
+        color: var(--crema);
+    }
+    .link_red{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 80%;
+    }
+    #link_redessociales{
+
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .redes{
+        display: flex;
+        width: auto;
+        height: 1rem;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
         font-size: 0.875rem;
         line-height: 1rem;
-        color: var(--crema);
+    
+        color: #464646;
+    
+    }
+    #icon_red{
+        stroke: var(--blanco);
+        width: 2.75rem;
+        height: 2.75rem;
     }
     #circulos{
         height: 100vh;
@@ -308,12 +346,12 @@
         top: 88%;
     }*/
     #titulo_1 {
-        width: 50%;
+        width: 100%;
         height: 1.625rem;
 
         position: absolute;
         left: 21%;
-        top: 13%;
+        top: 19%;
        
 
         font-family: 'Raleway';
@@ -328,15 +366,16 @@
         width: 55%;
 
         position: absolute;
+        top: 41%;
         
     
         font-family: 'Raleway';
         font-style: normal;
-        font-weight: 700;
-        font-size: 1.375rem;
-        line-height: 1.5625rem;
+        font-weight: 500;
+        font-size: 1.7rem;
+        line-height: 1.8rem;
 
-        color: var(--crema);
+        color: #f7f3f3;
     }
 /*------------------------- habilidades------------------------------------------*/
     #skills{
@@ -366,10 +405,7 @@
     #skills #circulodeluz2{
         top: 85%;
     }*/
-    #skills #titulo_1{
-        top: 232%; 
-        top: 13%;      
-    }
+
     #boxskills{
         display: flex;
         flex-direction: column;
@@ -395,6 +431,9 @@
         justify-content: space-evenly;
         row-gap: 2rem;
         column-gap: 2rem;
+
+        position: absolute;
+        top: 35%;
         
     }
     .skill{
@@ -466,6 +505,8 @@
 
         width: auto;
         height: 23.625rem;
+        position: absolute;
+        top: 35%;
         
     }
     .Formacion{
@@ -523,10 +564,7 @@
     .Formacion_academicas #circulodeluz2{
         top: 88%;
     }*/
-    #boxFormacion #titulo_1{
-        top: 13%;  
-        width: 70%;    
-    }
+
     #titulo{
         width: 100%;
         height: 1.1875rem;
@@ -572,11 +610,11 @@
        
     }
     #listaexperiencias{
+        top: 8%;
         min-height: 500px;
         
     }
     #boxexperiencias #titulo_1{
-        top: 10%;
         left: 28%;
         width: 80%;
         height: 6.25rem;   
@@ -727,36 +765,7 @@
     
         color: #464646;
     }
-    .link_red{
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 80%;
-    }
-    #link_redessociales{
-
-        width: 40%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .redes{
-        display: flex;
-        width: auto;
-        height: 1rem;
     
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 0.875rem;
-        line-height: 1rem;
-    
-        color: #464646;
-    
-    }
-    #icon_red{
-        stroke: var(--blanco);
-    }
 
     /* X-Small devices (portrait phones, less than 576px)*/
     /* X-Large devices (large desktops, 1200px and up)*/
@@ -767,7 +776,7 @@
     /* Large devices (desktops, 992px and up)*/
     @media (max-width: 992px) { 
         html{
-            font-size: 14px;
+            font-size: 13px;
         }
         #foto_de_perfil{
             width: 18rem;
@@ -780,7 +789,60 @@
     }
     
     /*Medium devices (tablets, 768px and up)*/
-    @media (min-width: 768px) { 
+    @media (max-width: 768px) { 
+        html{
+            font-size: 12px;
+        }
+        .text_hero {
+            width: 55%;
+            margin-left: 0px;
+        }
+        #boxhero {
+            flex-direction: column;
+        }
+        #box_img {
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .text_hero {
+            width: 100%;
+            margin-left: 0px;
+            justify-content: flex-start;
+        }
+        #titulo_1{
+            top: 16%;
+        }
+        #Formacion_box {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            height: 580px;
+            width: auto;
+            top: 27%;
+        }
+        #boxexperiencias #titulo_1 {
+            left: 0px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #proyecto1 {
+            gap: 16px;
+            width: 35rem;
+            height: 35rem;
+        }
+        #proyecto2 {
+            width: 100%;
+            height: 35rem;
+            gap: 0.5rem;
+        }
+        #info{
+            margin-bottom: 5rem;
+
+        }
 
     }
     
