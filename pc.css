@@ -792,10 +792,6 @@
     @media (max-width: 768px) { 
         html{
             font-size: 12px;
-        }/*
-        .text_hero {
-            width: 55%;
-            margin-left: 0px;
         }
         #boxhero {
             flex-direction: column;
@@ -804,7 +800,12 @@
             width: 100%;
             align-items: center;
             flex-direction: column;
-            justify-content: flex-end;
+            margin-top: 15%;
+            justify-content: center;
+        }
+        #foto_de_perfil{
+            width: 20rem;
+            height: 20rem;
         }
         .text_hero {
             width: 100%;
@@ -813,6 +814,9 @@
         }
         #titulo_1{
             top: 16%;
+        }
+        #skills_box {
+            width: 85%;
         }
         #Formacion_box {
             display: flex;
@@ -842,14 +846,14 @@
         #info{
             margin-bottom: 5rem;
 
-        }*/
+        }
 
     }
     
     /* Small devices (landscape phones, 576px and up)*/
     @media (max-width: 576px) { 
         html{
-            font-size: 5px;
+            font-size: 10px;
         }
     }
     

@@ -29,15 +29,18 @@
       dist: -80,
       shift: 5,
       padding: 5,
-      numVisible: 1,
+      numVisible: 3,
       indicators: true,
       noWrap: false,
 
     });
   });
+let pantalla = window.screen.width;
 
   $(document).ready(function() {
     $('#pagepiling').pagepiling({
 
     });
   });
+
+  
