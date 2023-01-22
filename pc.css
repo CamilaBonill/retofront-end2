@@ -792,7 +792,7 @@
     @media (max-width: 768px) { 
         html{
             font-size: 12px;
-        }
+        }/*
         .text_hero {
             width: 55%;
             margin-left: 0px;
@@ -842,7 +842,7 @@
         #info{
             margin-bottom: 5rem;
 
-        }
+        }*/
 
     }
     
