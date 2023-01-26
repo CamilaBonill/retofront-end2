@@ -32,15 +32,15 @@
       numVisible: 3,
       indicators: true,
       noWrap: false,
-
+    
     });
   });
 let pantalla = window.screen.width;
-
+    
   $(document).ready(function() {
     $('#pagepiling').pagepiling({
 
     });
   });
 
-  
+

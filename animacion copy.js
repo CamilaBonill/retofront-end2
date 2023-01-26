@@ -218,59 +218,6 @@ window.addEventListener("scroll", () => {
     document.getElementById("k1").style.top = x;
   //}
 });*/
-let scrollCounter = 0;
-let currentSection = 0;
-const sections = document.querySelectorAll('.section');
-let intervalId;
-const sectionContainer = document.querySelector('.section-container');
-
-function handleScroll(event) {
-    event.preventDefault();
-    scrollCounter++;
-    if (event.deltaY > 0) {
-        if (currentSection >= sections.length-1) {
-            return;
-        }
-        if (scrollCounter % 3 === 0) {
-            clearInterval(intervalId);
-            let currentTop = -currentSection * sections[0].clientHeight;
-            let nextTop = -(currentSection + 1) * sections[0].clientHeight;
-            let diff = nextTop - currentTop;
-            let step = diff/50;
-            intervalId = setInterval(() => {
-                currentTop += step;
-                sectionContainer.style.transform = `translateY(${currentTop}px)`;
-                if(currentTop >= diff){
-                    clearInterval(intervalId);
-                    currentSection++;
-                    sectionContainer.style.transform = `translateY(${nextTop}px)`;
-                }
-            }, 10);
-        }
-    } else if(event.deltaY < 0){
-        if (currentSection <= 0) {
-            return;
-        }
-        if (scrollCounter % 3 === 0) {
-            clearInterval(intervalId);
-            let currentTop = -currentSection * sections[0].clientHeight;
-            let prevTop = -(currentSection - 1) * sections[0].clientHeight;
-            let diff = currentTop - prevTop;
-            let step = diff/50;
-            intervalId = setInterval(() => {
-                currentTop -= step;
-                sectionContainer.style.transform = `translateY(${currentTop}px)`;
-                if(currentTop <= -diff){
-                    clearInterval(intervalId);
-                    currentSection--;
-                    sectionContainer.style.transform = `translateY(${prevTop}px)`;
-                }
-            }, 10);
-        }
-    }
-}
-window.addEventListener('wheel', handleScroll, { passive: false })
-
 
 
  

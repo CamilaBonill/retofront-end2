@@ -247,6 +247,7 @@
         height: 2.75rem;
     }
     #circulos{
+        display: none;
         height: 100vh;
         max-width: 93.75rem; 
         width: 100%;
@@ -346,7 +347,7 @@
         top: 88%;
     }*/
     #titulo_1 {
-        width: 100%;
+        width: auto;
         height: 1.625rem;
 
         position: absolute;
@@ -785,6 +786,9 @@
         strong{
            font-size: 4rem; 
         }
+        .menu{
+            display: none;
+        }
         
     }
     
@@ -807,6 +811,9 @@
             width: 20rem;
             height: 20rem;
         }
+        .menu{
+            display: none;
+        }
         .text_hero {
             width: 100%;
             margin-left: 0px;
@@ -816,7 +823,7 @@
             top: 16%;
         }
         #skills_box {
-            width: 85%;
+            width: 70%;
         }
         #Formacion_box {
             display: flex;
@@ -854,6 +861,34 @@
     @media (max-width: 576px) { 
         html{
             font-size: 10px;
+        }
+        #Formacion_box {
+            
+            gap: 1.5rem;
+            height: 580px;
+            top: 11%;
+        }
+        #titulo_1 {
+            left: 12%;
+            top: 7%;
+            
+            line-height: 3rem;
+        }
+        #parrafo_sobre_mi {
+            width: 70%;
+            top: 28%;
+           
+        }
+        #skills_box {
+            width: 70%;
+            top: 30%;
+        }
+        #boxexperiencias #titulo_1 {
+            width: auto;
+            left: 12%;
+            top: 7%;
+            
+            line-height: 3rem;
         }
     }
     
