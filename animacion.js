@@ -22,20 +22,27 @@
   //ScrollReveal().reveal('#titulo_1, #titulo_2', {delay: 500, origin: 'let'})
 
 //animaciones con materialize
+
+let pantalla = window.screen.width;
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
+    let x = 1;
+    if(pantalla>768){
+      x=3;
+    }
+    
     M.Carousel.init(elems, {
       duration: 150,
       dist: -80,
       shift: 5,
       padding: 5,
-      numVisible: 3,
+      numVisible: x,
       indicators: true,
       noWrap: false,
     
     });
   });
-let pantalla = window.screen.width;
+
     
   $(document).ready(function() {
     $('#pagepiling').pagepiling({

@@ -247,7 +247,7 @@
         height: 2.75rem;
     }
     #circulos{
-        display: none;
+        /*display: none;*/
         height: 100vh;
         max-width: 93.75rem; 
         width: 100%;
@@ -616,8 +616,6 @@
         
     }
     #boxexperiencias #titulo_1{
-        left: 28%;
-        width: 80%;
         height: 6.25rem;   
     }
     #proyecto1{
@@ -823,7 +821,7 @@
             top: 16%;
         }
         #skills_box {
-            width: 70%;
+            width: 60%;
         }
         #Formacion_box {
             display: flex;
@@ -869,7 +867,6 @@
             top: 11%;
         }
         #titulo_1 {
-            left: 12%;
             top: 7%;
             
             line-height: 3rem;
@@ -884,11 +881,10 @@
             top: 30%;
         }
         #boxexperiencias #titulo_1 {
-            width: auto;
-            left: 12%;
-            top: 7%;
-            
+            top: 10%;
             line-height: 3rem;
+            width: 99%;
+            text-align: center;
         }
     }
     
