@@ -536,7 +536,7 @@
         height: 100vh;
     }
     #next_go{
-        width: 40px;
+        width: 2.5rem;
         position: absolute;
         z-index: 20;
         top: 50%;
