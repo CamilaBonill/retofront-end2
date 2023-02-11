@@ -508,24 +508,6 @@
     #one_logo{
         width: 14.375rem;
     }
-    /*
-    .Formacion_academicas #circulo1{
-        top: -4%;
-        clip-path: inset(6% 0px 0px);
-    }
-    .Formacion_academicas #circulo2{
-        top: 2%;
-    }
-    .Formacion_academicas  #circulo3{
-        top: 2%;
-    }
-    .Formacion_academicas #circulodeluz{
-        top: 88%;
-    }
-    .Formacion_academicas #circulodeluz2{
-        top: 88%;
-    }*/
-
     #titulo{
         width: 100%;
         height: 1.1875rem;
@@ -552,6 +534,21 @@
     #experiencias{
         width: 100%;
         height: 100vh;
+    }
+    #next_go{
+        width: 40px;
+        position: absolute;
+        z-index: 20;
+        top: 50%;
+        left: 62%;
+    }
+    #next_go2{
+        width: 40px;
+        position: absolute;
+        z-index: 20;
+        top: 50%;
+        left: 35%;
+        transform: rotate(180deg);
     }
     #boxexperiencias{
         
@@ -631,7 +628,7 @@
         margin: 0px;
     }
     #detalle_proyecto{
-        width: 18.5rem;
+        width: 22.5rem;
         height: 40%;
 
         font-family: var(--font_family1);
