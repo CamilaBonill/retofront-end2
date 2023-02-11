@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css"/>
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css"/-->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
    <link rel="stylesheet" href="reset.css">
     <!--link rel="stylesheet" href="style.css"-->
     <!--link rel="stylesheet" href="RESPONSIVE.css"-->
-    <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="pc.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@main/css/iconoir.css">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -36,19 +35,21 @@
             </div>
         </div>    
    </header>
-<!-----------Cuerpo de pagina-----------------------------> 
+<!-----------Cuerpo de pagina----------------------------->
+   <!-----------Deco----------------------------->
+   <div id="circulos">
+        <div id="circulo1"></div>
+        <div id="circulo2"></div>
+        <div id="circulo3"></div>
+        <div id="circulodeluz"></div>
+        <div id="circulodeluz2"></div>
+    </div>
+
    <main class="section-container" id="pagepiling">
 <!------------------------- portada--------------------------------------------->  
         <section class="section" id="hero " >
             <div id="conterner">
                 <div id="boxhero">
-                    <div id="circulos">
-                        <div id="circulo1"></div>
-                        <div id="circulo2"></div>
-                        <div id="circulo3"></div>
-                        <div id="circulodeluz"></div>
-                        <div id="circulodeluz2"></div>
-                    </div>
                     <div id="box_img"><img id="foto_de_perfil" src="./recursos/foto de perfil.png"></div>
                     
                     <div class="text_hero">
@@ -105,13 +106,6 @@
         <section class="sobre_mi section" id="sobremi">
             <div id="conterner">
                 <div id="boxsobremi">
-                    <div id="circulos">
-                        <div id="circulo1"></div>
-                        <div id="circulo2"></div>
-                        <div id="circulo3"></div>
-                        <div id="circulodeluz"></div>
-                        <div id="circulodeluz2"></div>
-                    </div>
                     <h1 class= "sobre" id="titulo_1">Sobre mi</h1>
                     <p id="parrafo_sobre_mi">Soy una estudiante de ingeniería civil y he estado estudiando programación durante los últimos 9 meses. Me encanta aprender nuevos lenguajes de programación y actualmente me especializo en HTML, JavaScript, CSS y Python. <br>
                     <br>Me siento muy afortunada de poder combinar mi pasión por la tecnología con mi formación en ingeniería y espero poder usar mis habilidades para contribuir al desarrollo de proyectos interesantes y significativos en el futuro.</p>
@@ -123,13 +117,6 @@
         <section class="section" id="skills" >
             <div id="conterner">
                 <div id="boxskills">
-                    <div id="circulos">
-                        <div id="circulo1"></div>
-                        <div id="circulo2"></div>
-                        <div id="circulo3"></div>
-                        <div id="circulodeluz"></div>
-                        <div id="circulodeluz2"></div>
-                    </div>
                     <h1 id="titulo_1">Skills</h1>
                     <ul id="skills_box">
                         <li class="skill" id="habilidad"><img src="./recursos/2.svg" id="logo_skill">Html 5</li>
@@ -137,7 +124,7 @@
                         <li class="skill" id="habilidad"><img src="./recursos/3.svg" id="logo_skill">Node JS</li>
                         <li class="skill" id="habilidad"><img src="./recursos/CSS3_logo.png"id="logo_skill">CSS</li>
                         <li class="skill" id="habilidad"><img src="./recursos/4.png" id="logo_skill">Python</li>
-                        <li class="skill" id="habilidad"><img src="./recursos/react.svg" id="logo_skill">React</li>
+                        <li class="skill" id="habilidad"><img src="./recursos/java-logo-2.png" id="logo_skill">JAVA</li>
                     </ul>
                 </div>
             </div>
@@ -147,13 +134,7 @@
         <section class="section" id="formacionacadémica" >
             <div id="conterner">
                 <section  id="boxFormacion">
-                    <div id="circulos">
-                        <div id="circulo1"></div>
-                        <div id="circulo2"></div>
-                        <div id="circulo3"></div>
-                        <div id="circulodeluz"></div>
-                        <div id="circulodeluz2"></div>
-                    </div>
+
                     <h1 id="titulo_1">Formación académica</h1>
                     <ul id="Formacion_box">
                         <li class="Formacion">
@@ -180,7 +161,7 @@
                         <li class="carousel-item experiencia" id="proyecto1">
                             <div id="proyecto2">
                                 <div class="img-shadow">
-                                    <img src="./recursos/Rectangle.png" id="proyecto">
+                                    <img src="./recursos/Encriptador.jpg" id="proyecto">
                                 </div>
                                 <div id="info">
                                     <div id="titulo_proyecto"><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
@@ -217,7 +198,7 @@
                         <li class="carousel-item experiencia" id="proyecto1">
                             <div id="proyecto2">
                                 <div class="img-shadow">
-                                    <img src="./recursos/Rectangle2.png" id="proyecto">
+                                    <img src="./recursos/JuegoDelahorcado.jpg" id="proyecto">
                                 </div>
                                 
                                 <div id="info">
@@ -253,7 +234,7 @@
                         <li class="carousel-item experiencia" id="proyecto1">
                             <div id="proyecto2">
                                 <div class="img-shadow">
-                                    <img src="./recursos/Rectangle3.png" id="proyecto">
+                                    <img src="./recursos/AluraGeek.jpg" id="proyecto">
                                 </div>
                                 <div id="info">
                                     <div id="titulo_proyecto"><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
@@ -290,7 +271,7 @@
                         <li class="carousel-item experiencia" id="proyecto1">
                             <div id="proyecto2">
                                 <div class="img-shadow">
-                                    <img src="./recursos/Rectangle4.png" id="proyecto">
+                                    <img src="./recursos/Portafolio.jpg" id="proyecto">
                                 </div>
                                 <div id="info">
                                     <div id="titulo_proyecto"><h1 id="nombre_proyecto">Encriptador de texto</h1></div>
@@ -366,8 +347,8 @@
     </footer>
 <!---------- Compiled and minified JavaScript de librerias ---------->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script-->
 <!-----------Javascript del proyecto ----------------------------->
     <script src="./animacion.js"></script> 
 </body>
