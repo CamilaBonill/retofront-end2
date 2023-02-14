@@ -27,13 +27,15 @@ let pantalla = window.screen.width;
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     let x = 1;
+    let y = 0;
     if(pantalla>768){
       x=3;
+      y= -80;
     }
     
     M.Carousel.init(elems, {
       duration: 150,
-      dist: -80,
+      dist: y,
       shift: 5,
       padding: 5,
       numVisible: x,

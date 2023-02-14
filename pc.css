@@ -543,11 +543,11 @@
         left: 62%;
     }
     #next_go2{
-        width: 40px;
+        width: 2.5rem;
         position: absolute;
         z-index: 20;
         top: 50%;
-        left: 35%;
+        right: 62%;
         transform: rotate(180deg);
     }
     #boxexperiencias{
@@ -817,6 +817,9 @@
         html{
             font-size: 10px;
         }
+        .link_red {
+            top: 90%;
+        }
         #Formacion_box {
             
             gap: 1.5rem;
@@ -842,6 +845,12 @@
             line-height: 3rem;
             width: 99%;
             text-align: center;
+        }
+        #next_go{
+            top: 85%;
+        }
+        #next_go2{
+            top: 85%;
         }
     }
     
