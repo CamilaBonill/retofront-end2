@@ -139,6 +139,7 @@
     }
     #box_img{
         display: flex;
+        z-index: 20;
         align-items: center;
         margin-left: 5%;
         height: 100%;
@@ -159,8 +160,9 @@
         justify-content: center;
         width: 50%;
         height: 100%;
-        
+        z-index: 20;
         margin-left: 5%;
+
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -212,11 +214,12 @@
         color: var(--crema);
     }
     .link_red{
-        width: 70%;
+        width: 100%;
         display: flex;
         justify-content: center;
         position: absolute;
         top: 80%;
+        left: 0;
     }
     #link_redessociales{
 
@@ -816,6 +819,20 @@
     @media (max-width: 576px) { 
         html{
             font-size: 10px;
+        }
+        #box_img {
+            margin-top: 0px; 
+            margin-left: 0px;
+        }
+        .text_hero {
+            align-items: center;
+        }
+        .text_hero h1{
+            display: flex;
+            justify-content: center;
+        }
+        #presentancion{
+            text-align: center;
         }
         .link_red {
             top: 90%;
